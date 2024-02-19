@@ -14,7 +14,8 @@ this.#value = initialValue;
    this.#value = str + this.#value;
  }
  padBoth(str) {
-   
+   this.padStart(str);
+   this.padEnd(str);
  }
 }
 
